@@ -6,3 +6,29 @@ It includes an example of real-time person detection from a video, with results 
 ---
 
 ##  Project Structure
+
+YOLOv5_Object_Detection/
+├── yolov5/ # YOLOv5 source code (from official repo)
+├── results/ # Output results
+│ └── people.gif # GIF version of the detection video
+├── requirements.txt # Required Python packages
+├── README.md
+
+---
+
+## Run Detection on Video
+python3 detect.py --weights yolov5s.pt --source data/images/people.mp4 --conf 0.4
+
+---
+
+## Result Preview
+![Detection Result](results/people.gif)
+
+---
+## Requirements
+- Python 3.8+
+- Required packages listed in `requirements.txt`
+- YOLOv5 model weights (e.g., `yolov5s.pt`)
+- PyTorch
+- OpenCV
+- ffmpeg (for GIF conversion)
