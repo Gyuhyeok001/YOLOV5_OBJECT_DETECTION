@@ -32,3 +32,27 @@ python3 detect.py --weights yolov5s.pt --source data/images/people.mp4 --conf 0.
 - PyTorch
 - OpenCV
 - ffmpeg (for GIF conversion)
+
+---
+
+---
+
+## Future Improvements
+
+- Add webcam live detection with OpenCV
+- Support for video stream input from IP camera
+- Integrate with ROS2 node for real-time robot deployment
+- Export detection results as JSON or CSV
+- Add object tracking module (e.g., DeepSORT)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+- GitHub: [Gyuhyeok001](https://github.com/Gyuhyeok001)
