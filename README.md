@@ -30,11 +30,16 @@ It includes an example of person detection on a sample video, with results saved
 
 ```text
 YOLOv5_Object_Detection/
-├── yolov5/ # YOLOv5 source code (from official repo)
-├── results/ # Output results
-│ └── people.gif # GIF version of the detection video
-├── requirements.txt # Required Python packages
-├── README.md
+├── yolov5/                    # YOLOv5 source code (from official repo)
+│   ├── detect.py              # Main detection script
+│   ├── fixed_people.mp4       # Example input video
+│   ├── yolov5s.pt             # Pretrained YOLOv5s weights
+│   ├── results/               # Output results
+│   │   └── people.gif         # GIF version of the detection video
+│   ├── runs/                  # Auto-created outputs (detected images/videos)
+│   ├── requirements.txt       # Required Python packages
+│   └── ...
+└── README.md
 ```
 ---
 
@@ -56,8 +61,6 @@ python3 detect.py \
 
 ## Result Preview
 ![Detection Result](results/people.gif)
-
----
 
 ---
 
