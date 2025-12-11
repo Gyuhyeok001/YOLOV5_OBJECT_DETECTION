@@ -44,13 +44,13 @@ YOLOv5_Object_Detection/
 ---
 
 ## Run Detection on Video
-# 1) Move into the YOLOv5 folder
+# 1) **Move into the YOLOv5 folder**
 cd yolov5
 
-# 2) Install required Python packages (first time only)
+# 2) **Install required Python packages (first time only)**
 pip install -r requirements.txt
 
-# 3) Run YOLOv5 on the example video
+# 3) **Run YOLOv5 on the example video**
 python3 detect.py \
   --weights yolov5s.pt \
   --source fixed_people.mp4 \
